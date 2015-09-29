@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  select(id='selection')
+    option hardcover-fiction
+    option e-book-fiction
+    option hardcover-nonfiction
+    
+  h1(id='title')= title
+
+  div(id='accordian')
+    for book in books
+      
+      div(class='book')
+        img(class='cover' src="http://covers.openlibrary.org/b/isbn/#{book.primary_isbn13}-S.jpg")
+        div(class='rank')
+          h1=book.rank
+        h2=book.title
+        h3=book.author
+      div(class='inner')
+        p=book.description

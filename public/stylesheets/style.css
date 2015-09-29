@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+select {
+  float: right;
+  width: 240px;
+  height: 34px;
+  overflow: hidden;
+  background:  no-repeat right #ddd;
+  border: 1px solid #ccc;
+  font-size: 16px
+}
+
+a {
+  color: #00B7FF;
+}
+
+.book{
+  width: 70%;
+  margin: 0 auto;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
+
+.rank{
+  text-align: center;
+  background: gray;
+  border-radius: 70px;
+  width: 70px;
+  height: 70px;
+  color: white;
+  float: left;
+  overflow: hidden;
+  margin: 15px
+}
+
+.cover{
+  margin: 10px;
+  float: right;
+}
+
+.inner{
+  width: 60%;
+  margin: 0 auto;
+}
+
+#title{
+  font-family: ‘Courier New’, Courier, monospace;
+}
+
+#accordian{
+  padding: 10px;
+}
